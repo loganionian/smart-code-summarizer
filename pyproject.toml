@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "smart-code-summarizer"
+version = "0.1.0"
+description = "An AI tool that automatically generates concise summaries and documentation for codebases."
+authors = ["Your Name <you@example.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+openai = "^0.27.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
